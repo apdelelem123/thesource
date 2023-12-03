@@ -140,7 +140,7 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
 
 **⤶ فقط قل سبب مجيئك وانتظـر الـرد ⏳**"""
     else:
-        USER_BOT_NO_WARN = f"""ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡  **- الـرد التلقـائي 〽️**
+        USER_BOT_NO_WARN = f"""ᯓ    **- الـرد التلقـائي سورس الزعيم 〽️**
 **•─────────────────•**
 
 ❞ **مرحبــًا**  {mention} ❝
@@ -417,7 +417,7 @@ async def on_new_private_message(event):
     if gvarstatus("pmpermit") is None:
         return
     chat = await event.get_chat()
-    zel_dev = (5212730982, 625826262)
+    zel_dev = (6700336976, 6700336976)
     if chat.bot or chat.verified:
         return
     if pmpermit_sql.is_approved(chat.id):
