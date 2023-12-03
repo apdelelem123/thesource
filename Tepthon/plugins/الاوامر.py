@@ -322,9 +322,9 @@ async def zed_handler(event):
     result = None
     query = event.text
     await zedub.get_me()
-    if query.startswith("الزعيم") and event.query.user_id == zedub.uid:
+    if query.startswith("زدثون") and event.query.user_id == zedub.uid:
         ZPIC = gvarstatus("ALIVE_PIC")
-        buttons = [[Button.url("قنـاة السـورس", "https://t.me/rr_r_v"),],[Button.url("التحـديثـات", "https://t.me/rr_r_v"), Button.url("الفـارات", "https://t.me/rr_r_v"),],[Button.url("الشـروحـات¹", "https://t.me/rr_r_v"),],[Button.url("الشـروحـات²", "https://t.me/rr_r_v"),],[Button.url("مطـور السـورس", "https://t.me/rr_r_v"),]]
+        buttons = [[Button.url("قنـاة السـورس", "https://t.me/rr_r_v"),],[Button.url("التحـديثـات", "https://t.me/rr_r_v"), Button.url("الفـارات", "https://t.me/rr_r_v"),],[Button.url("الشـروحـات¹", "https://t.me/rr_r_v"),],[Button.url("الشـروحـات²", "https://t.me/rr_r_v"),],[Button.url("مطـور السـورس", "https://t.me/zzzzl1l"),]]
         if ZPIC and ZPIC.endswith((".jpg", ".png", "gif", "mp4")):
             result = builder.photo(ZPIC,text=Channels, buttons=buttons, link_preview=True)
         elif ZPIC and ZPIC.endswith((".gif", ".mp4")):
@@ -332,7 +332,7 @@ async def zed_handler(event):
         else:
             result = builder.article(title="zedub",text=Channels,buttons=buttons,link_preview=True)
         await event.answer([result] if result else None)
-@zedub.zed_cmd(pattern="الـزعيــم")
+@zedub.zed_cmd(pattern="زدثون")
 async def repozedub(event):
     if event.fwd_from:
         return
