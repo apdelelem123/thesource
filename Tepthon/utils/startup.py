@@ -106,7 +106,8 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://graph.org/file/b920419da499a55479a15.jpg",
+                "
+                https://graph.org/file/3f3e89560fee6911b7486.mp4",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس الزعيم الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("𝐬𝐨𝐮𝐫𝐜𝐞 الزعيم", "https://t.me/rr_r_v"),)],
             )
@@ -279,11 +280,11 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await zedub(JoinChannelRequest("@Tepthon"))
+        await zedub(JoinChannelRequest("@rr_r_v"))
     except BaseException:
         pass
     try:
-        await zedub(JoinChannelRequest("@Tepthon_help"))
+        await zedub(JoinChannelRequest("@rr_r_v"))
     except BaseException:
         pass
 
