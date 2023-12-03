@@ -13,7 +13,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("سورس تيبثون")
+LOGS = logging.getLogger("سورس الزعيم")
 
 print(Tepthon.__copyright__)
 print(f"المرخصة بموجب شروط  {Tepthon.__license__}")
@@ -37,7 +37,7 @@ if not Config.ALIVE_NAME:
         LOGS.error(f"- {e}")
 
 try: #Code by T.me/E_7_V
-    LOGS.info("⌭ بـدء تنزيـل تيـبثون ⌭")
+    LOGS.info("⌭ بـدء تنزيـل الزعيم ⌭")
     zedub.loop.run_until_complete(setup_bot())
     LOGS.info("⌭ بـدء تشغيل البـوت ⌭")
 except Exception as e:
@@ -56,12 +56,12 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    print("➖➖➖➖➖ سورس تيبثون™ ➖➖➖➖➖")
+    print("➖➖➖➖➖ سورس الزعيم™ ➖➖➖➖➖")
     print("تـم التنصـيب .. بنجـاح ✓")
     print(
-        f"⌔┊تـم تنصيـب تيبثـون يـوزر بـوت . . بنجـاح 🧸♥️ \n\n⌔┊تحيـاتي ..  محـمد\n⌔┊قنـاة السـورس ↶.\n🌐┊@Tepthon"
+        f"⌔┊تـم تنصيـب الزعيم يـوزر بـوت . . بنجـاح 🧸♥️ \n\n⌔┊تحيـاتي ..  عبود\n⌔┊قنـاة السـورس ↶.\n🌐┊@kuvvn1"
     )
-    print("➖➖➖➖➖ سورس تيبثون™ ➖➖➖➖➖")
+    print("➖➖➖➖➖ سورس الزعيم™ ➖➖➖➖➖")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
