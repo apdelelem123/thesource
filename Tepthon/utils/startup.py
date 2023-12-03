@@ -181,7 +181,7 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {ba_roger} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @Tepthon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {ba_roger} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @rr_r_v 🌐")
         except Exception as e:
             print(e)
 
@@ -280,11 +280,11 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await zedub(JoinChannelRequest("@rr_r_v"))
+        await zedub(JoinChannelRequest("@Tepthon"))
     except BaseException:
         pass
     try:
-        await zedub(JoinChannelRequest("@rr_r_v"))
+        await zedub(JoinChannelRequest("@Tepthon_help"))
     except BaseException:
         pass
 
