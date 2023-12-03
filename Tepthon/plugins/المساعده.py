@@ -64,7 +64,7 @@ async def help(event):
 @check_owner
 async def _(event):
     butze = [
-        [Button.inline("𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁", data="ZAZ")],
+        [Button.inline(" سورس الـزعيــم", data="ZAZ")],
         [
             Button.inline("البـوت 🤖", data="botvr"),
             Button.inline("الحساب🎗", data="acccount"),
@@ -116,7 +116,7 @@ async def _(event):
                 ],
                 [
                     Button.inline("سورس", data="sourcevr"),
-                    Button.inline("تيبثون تيبثون", data="zedvr"),
+                    Button.inline(" الزعيم الزعيم", data="zedvr"),
                 ],
                 [
                     Button.inline("الاذاعه", data="ethaavr"),
@@ -135,7 +135,7 @@ async def _(event):
 @check_owner
 async def _(event):
     await event.edit(
-        "[ᯓ 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 - ادوات النظــام 🤖](t.me/TepThon) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر نظـام البـوت المسـاعد :**\n\n",
+        "[ᯓ  سورس الزعيم - ادوات النظــام 🤖](t.me/rr_r_v) .\n\n**⎉╎اليك عـزيـزي شـࢪوحـات اوامـر نظـام البـوت المسـاعد :**\n\n",
         buttons=[
             [
                 Button.inline("النظـام", data="syszzz"),
