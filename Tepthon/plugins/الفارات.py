@@ -1270,7 +1270,7 @@ async def _(malatha):
                 os.remove(downloaded_file_name)
                 vinfo = ("https://graph.org{}".format(media_urls[0]))
                 addgvar("pmpermit_pic", vinfo)
-                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @Tepthon**".format(input_str, vinfo))
+                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @VVV5P**".format(input_str, vinfo))
         elif input_str in ["الفحص", "السورس"]:
             downloaded_file_name = await malatha.client.download_media(
                 r_message, Config.TEMP_DIR
@@ -1290,7 +1290,7 @@ async def _(malatha):
                 os.remove(downloaded_file_name)
                 vinfo = ("https://graph.org{}".format(media_urls[0]))
                 addgvar("ALIVE_PIC", vinfo)
-                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @Tepthon**".format(input_str, vinfo))
+                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @VVV5P**".format(input_str, vinfo))
         elif input_str in ["البوت", "الستارت"]:
             downloaded_file_name = await malatha.client.download_media(
                 r_message, Config.TEMP_DIR
@@ -1310,7 +1310,7 @@ async def _(malatha):
                 os.remove(downloaded_file_name)
                 vinfo = ("https://graph.org{}".format(media_urls[0]))
                 addgvar("BOT_START_PIC", vinfo)
-                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @Tepthon**".format(input_str, vinfo))
+                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @VVV5P**".format(input_str, vinfo))
         elif input_str in ["الاوامر", "اللوحه"]:
             downloaded_file_name = await malatha.client.download_media(
                 r_message, Config.TEMP_DIR
@@ -1330,7 +1330,7 @@ async def _(malatha):
                 os.remove(downloaded_file_name)
                 vinfo = ("https://graph.org{}".format(media_urls[0]))
                 addgvar("CMD_PIC", vinfo)
-                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @Tepthon**".format(input_str, vinfo))
+                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @VVV5P**".format(input_str, vinfo))
         elif input_str in ["السورس", "سورس"]:
             downloaded_file_name = await malatha.client.download_media(
                 r_message, Config.TEMP_DIR
@@ -1350,7 +1350,7 @@ async def _(malatha):
                 os.remove(downloaded_file_name)
                 vinfo = ("https://graph.org{}".format(media_urls[0]))
                 addgvar("ALIVE_PIC", vinfo)
-                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @Tepthon**".format(input_str, vinfo))
+                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @VVV5P**".format(input_str, vinfo))
         elif input_str in ["الكتم", "كتم"]:
             downloaded_file_name = await malatha.client.download_media(
                 r_message, Config.TEMP_DIR
@@ -1370,7 +1370,7 @@ async def _(malatha):
                 os.remove(downloaded_file_name)
                 vinfo = ("https://graph.org{}".format(media_urls[0]))
                 addgvar("KTM_PIC", vinfo)
-                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @Tepthon**".format(input_str, vinfo))
+                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @VVV5P**".format(input_str, vinfo))
         elif input_str in ["الوقتي", "البروفايل"]:
             downloaded_file_name = await malatha.client.download_media(
                 r_message, Config.TEMP_DIR
@@ -1390,7 +1390,7 @@ async def _(malatha):
                 os.remove(downloaded_file_name)
                 vinfo = ("https://graph.org{}".format(media_urls[0]))
                 addgvar("DIGITAL_PIC", vinfo)
-                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @Tepthon**".format(input_str, vinfo))
+                await zed.edit("**⎉╎تم تغييـر صـورة {} .. بنجـاح ☑️**\n**⎉╎المتغيـر : ↶**\n `{}` \n\n**⎉╎قنـاة السـورس : @VVV5P**".format(input_str, vinfo))
 
 
     else:
