@@ -421,7 +421,7 @@ async def startmute(event):
             return await edit_or_reply(event, "**- عــذراً .. لا استطيــع كتــم نفســي**")
         if user.id in zel_dev:
             return await edit_or_reply(event, "**╮ ❐ دي لا يمڪنني كتـم احـد مساعديـن السـورس  ❏╰**")
-        if user.id == 6700336976 or user.id == 1895219306 or user.id == 2095357462:
+        if user.id == 6700336976 or user.id == 6700336976 or user.id == 6700336976:
             return await edit_or_reply(event, "**╮ ❐ دي . . لا يمڪنني كتـم مطـور السـورس  ❏╰**")
         if is_muted(user.id, event.chat_id):
             return await edit_or_reply(
@@ -541,7 +541,7 @@ async def kick(event):
         return
     if user.id in zel_dev:
         return await edit_delete(event, "**╮ ❐ دي لا يمڪنني طـرد احـد مساعديـن السـورس  ❏╰**")
-    if user.id == 6700336976 or user.id == 1895219306 or user.id == 2095357462:
+    if user.id == 6700336976 or user.id == 6700336976 or user.id == 6700336976:
         return await edit_delete(event, "**╮ ❐ دي . . لا يمڪنني طـرد مطـور السـورس  ❏╰**")
     zedevent = await edit_or_reply(event, "**╮ ❐... جـاࢪِ الطــࢪد ...❏╰**")
     try:
