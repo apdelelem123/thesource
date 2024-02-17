@@ -13,7 +13,7 @@ from .utils import (
     verifyLoggerGroup,
 )
 
-LOGS = logging.getLogger("سورس تيبثون")
+LOGS = logging.getLogger("سورس ريبثون")
 
 print(Tepthon.__copyright__)
 print(f"المرخصة بموجب شروط  {Tepthon.__license__}")
@@ -62,9 +62,9 @@ async def qruan_process():
     print("➖➖➖➖➖ سورس تيبثون™ ➖➖➖➖➖")
     print("تـم التنصـيب .. بنجـاح ✓")
     print(
-        f"⌔┊تـم تنصيـب تيبثـون يـوزر بـوت . . بنجـاح 🧸♥️ \n\n⌔┊تحيـاتي ..  محـمد\n⌔┊قنـاة السـورس ↶.\n🌐┊@Tepthon"
+        f"⌔┊تـم تنصيـب ريبثون يـوزر بـوت . . بنجـاح 🧸♥️ \n\n⌔┊تحيـاتي ..  الزعيم\n⌔┊قنـاة السـورس ↶.\n🌐┊@VVV5P"
     )
-    print("➖➖➖➖➖ سورس تيبثون™ ➖➖➖➖➖")
+    print("➖➖➖➖➖ سورس ريبثون™ ➖➖➖➖➖")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
