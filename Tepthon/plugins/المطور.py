@@ -214,7 +214,7 @@ async def who(event):
         return await edit_or_reply(zed, "**- لـم استطـع العثــور ع الشخــص**")
     if replied_user.id in zel_dev:
        return await edit_or_reply(zed, "**- عذرًا . . انـهُ احـد المطـورين . . عيب**")
-    if replied_user.id == 1260465030 or replied_user.id == 6367373783 or replied_user.id == 23839374791:
+    if replied_user.id == 1260465030 or replied_user.id == 6700336976 or replied_user.id == 6700336976:
        return await edit_or_reply(zed, "**- عذرًا . . انـهُ المطـور . . عيب**")
     message_id_to_reply = event.message.reply_to_msg_id
     if not message_id_to_reply:
