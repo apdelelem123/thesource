@@ -161,7 +161,7 @@ async def mybot(): # By T.me/E_7_V
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊أنــا الـبـوت المسـاعـد الخـاص بِـ {mohammad_tep} \n•⎆┊بـواسطـتـي يُمكنـك التواصـل مع مالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @Tepthon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊أنــا الـبـوت المسـاعـد الخـاص بِـ {mohammad_tep} \n•⎆┊بـواسطـتـي يُمكنـك التواصـل مع مالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @VVV5P 🌐")
         except Exception as e:
             print(e)
 
@@ -179,8 +179,8 @@ async def startupmessage():
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
                 "https://graph.org/file/b920419da499a55479a15.jpg",
-                caption="**•⎆┊تـم بـدء تشغـيل سـورس تيـبثون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝐬𝐨𝐮𝐫𝐜𝐞 𝐭𝐞𝐩𝐭𝐡𝐨𝐧𓅛", "https://t.me/Tepthon"),)],
+                caption="**•⎆┊تـم بـدء تشغـيل سـورس ريبثون الخاص بك .. بنجاح 🧸♥️**",
+                buttons=[(Button.url("سورس ريبثون الزعيم 𓅛", "https://t.me/VVV5P"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -331,7 +331,7 @@ async def verifyLoggerGroup():
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامه (وظيفتهـا تخزيـن كـل سجـلات وعمليـات البـوت.)"
         photozed = await zedub.upload_file(file="zedthon/malath/Tepthon.jpg")
         _, groupid = await create_supergroup(
-            "كـروب السجـل تيـبثون", zedub, Config.TG_BOT_USERNAME, descript, photozed
+            "كـروب السجـل ريبثون", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
