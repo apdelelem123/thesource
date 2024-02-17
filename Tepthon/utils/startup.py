@@ -137,7 +137,7 @@ async def mybot(): # By T.me/E_7_V
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "Tepthon")
+            await bot.send_message("@BotFather", "𝗮𝗹𝘇𝗮𝗲𝗶𝗺")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
@@ -155,7 +155,7 @@ async def mybot(): # By T.me/E_7_V
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"- بوت تيبثـون المساعـد 🇵🇸🤍الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بوت ريبثون المساعـد 🇵🇸🤍الخـاص بـ  {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
@@ -178,7 +178,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://graph.org/file/b920419da499a55479a15.jpg",
+                "https://graph.org/file/dddd3c309b766d8077131.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس ريبثون الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("سورس ريبثون الزعيم 𓅛", "https://t.me/VVV5P"),)],
             )
