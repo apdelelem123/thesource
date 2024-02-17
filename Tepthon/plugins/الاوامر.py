@@ -331,7 +331,7 @@ async def zed_handler(event):
     await zedub.get_me()
     if query.startswith("ريبثون") and event.query.user_id == zedub.uid:
         ZPIC = gvarstatus("ALIVE_PIC")
-        buttons = [[Button.url("سورس ريبثون العربي - TEPTHON USERBOT", "https://t.me/VVV5P"),],[Button.url("التحـديثـات", "https://t.me/Tws_Tepthon"), Button.url("الفـارات", "https://t.me/VVV5Pe1"),],[Button.url("الشـروحـات¹", "https://t.me/Tws_Tepthon"),],[Button.url("كــلايــش تــيــبــثون", "https://t.me/VVV5Pklaesh"),],[Button.url("مطـور السـورس", "https://t.me/PPF22"),]]
+        buttons = [[Button.url("سورس ريبثون  - 𝘀𝘂𝗿𝘀 𝗮𝗹𝘇𝗮𝗲𝗶𝗺", "https://t.me/VVV5P"),],[Button.url("التحـديثـات", "https://t.me/VVV5P"), Button.url("الفـارات", "https://t.me/VVV5P"),],[Button.url("الشـروحـات¹", "https://t.me/VVV5P"),],[Button.url("كــلايــش ريبثون", "https://t.me/VVV5P"),],[Button.url("مطـور السـورس", "https://t.me/T_5_G"),]]
         if ZPIC and ZPIC.endswith((".jpg", ".png", "gif", "mp4")):
             result = builder.photo(ZPIC,text=Channels, buttons=buttons, link_preview=True)
         elif ZPIC and ZPIC.endswith((".gif", ".mp4")):
@@ -360,7 +360,7 @@ async def zed_handler(event):
     await zedub.get_me()
     if query.startswith("السورس") and event.query.user_id == zedub.uid:
         ZPIC = gvarstatus("ALIVE_PIC")
-        buttons = [[Button.url("سورس ريبثون العربي - TEPTHON USERBOT", "https://t.me/VVV5P")]]
+        buttons = [[Button.url("سورس ريبثون  - 𝘀𝘂𝗿𝘀 𝗮𝗹𝘇𝗮𝗲𝗶𝗺", "https://t.me/VVV5P")]]
         if ZPIC and ZPIC.endswith((".jpg", ".png")):
             result = builder.photo(ZPIC,text=Zelzal, buttons=buttons, link_preview=True)
         elif ZPIC and ZPIC.endswith((".gif", ".mp4")):
@@ -389,7 +389,7 @@ async def zed_handler(event):
     await zedub.get_me()
     if query.startswith("سورس") and event.query.user_id == zedub.uid:
         ZPIC = gvarstatus("ALIVE_PIC")
-        buttons = [[Button.url("سورس ريبثون العربي - TEPTHON USERBOT", "https://t.me/VVV5P")]]
+        buttons = [[Button.url("سورس ريبثون  -𝘀𝘂𝗿𝘀 𝗮𝗹𝘇𝗮𝗲𝗶𝗺", "https://t.me/VVV5P")]]
         if ZPIC and ZPIC.endswith((".jpg", ".png")):
             result = builder.photo(ZPIC,text=Zelzal, buttons=buttons, link_preview=True)
         elif ZPIC and ZPIC.endswith((".gif", ".mp4")):
@@ -421,7 +421,7 @@ async def zed_handler(event):
 
     if query.startswith("اليدوي") and event.query.user_id == zedub.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• إليـك شـرح إعـادة التشغيـل اليـدوي↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5Pe1")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zedub",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zedub.zed_cmd(pattern="اليدوي(?: |$)(.*)")
@@ -450,7 +450,7 @@ async def zed_handler(event):
 
     if query.startswith("الفيزا") and event.query.user_id == zedub.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• إليـك الفيـزا الــخـاصـة بهيـروكـو↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VisaTepthon")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zedub",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zedub.zed_cmd(pattern="الفيزا(?: |$)(.*)")
@@ -480,7 +480,7 @@ async def zed_handler(event):
 
     if query.startswith("الهيروكو") and event.query.user_id == zedub.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• إليـك شـرح إنشـاء حسـاب هيـروكـو↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/Tws_Tepthon/59")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zedub",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zedub.zed_cmd(pattern="الهيروكو(?: |$)(.*)")
@@ -509,7 +509,7 @@ async def zed_handler(event):
 
     if query.startswith("التنصيب") and event.query.user_id == zedub.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• إليـك شـرح تنصيب السـورس ع هيـروكـو↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P/134")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zedub",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zedub.zed_cmd(pattern="التنصيب(?: |$)(.*)")
@@ -536,7 +536,7 @@ async def zed_handler(event):
 
     if query.startswith("يدوي") and event.query.user_id == zedub.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• إليـك شـرح إعـادة التشغيـل يـدويـًا↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/Tws_Tepthon/63")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zedub",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zedub.zed_cmd(pattern="يدوي(?: |$)(.*)")
