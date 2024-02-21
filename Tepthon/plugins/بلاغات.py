@@ -47,14 +47,14 @@ async def spam_abusezed(event, sandy, zed, sleeptimem, sleeptimet, DelaySpam=Fal
             if event.reply_to_msg_id:
                 await sandy.reply(spam_message)
             else:
-                await event.client.send_message('@AbuseNotifications', spam_message) # code by t.me/zzzzl1l
+                await event.client.send_message('@FFFH0', spam_message) # code by t.me/zzzzl1l
             await asyncio.sleep(4)
     elif event.reply_to_msg_id and sandy.text:
         spam_message = sandy.text
         for _ in range(counter):
             if gvarstatus("spamwork") is None:
                 return
-            await event.client.send_message('@AbuseNotifications', spam_message) # code by t.me/zzzzl1l
+            await event.client.send_message('@FFFH0', spam_message) # code by t.me/zzzzl1l
             await asyncio.sleep(4)
     else:
         return
@@ -95,7 +95,7 @@ async def spammer(event):
     else:
         sleeptimet = 4
         sleeptimem = 0.3
-    await edit_delete(event, f"**⎉╎جـارِ الابـلاغ الداخلـي . . . ⚠️ \n⎉╎لـ الدعم @FFFH0\n⎉╎عـدد البلاغـات ** {zed}", 5)
+    await edit_delete(event, f"**⎉╎جـارِ الابـلاغ الداخلـي . . . ⚠️ \n⎉╎لـ الدعم @AbuseNotifications\n⎉╎عـدد البلاغـات ** {zed}", 5)
     addgvar("spamwork", True)
     await spam_abusezed(event, sandy, zed, sleeptimem, sleeptimet)
 
